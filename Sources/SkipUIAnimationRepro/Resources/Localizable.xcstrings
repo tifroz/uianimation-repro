@@ -61,13 +61,13 @@
         }
       }
     },
-    "Animate green tile (fade)" : {
+    "Animate" : {
 
     },
-    "Animate red tile (motion)" : {
+    "Animating…" : {
 
     },
-    "Animation Scope Creep: .withAnimation() bleeds into global scope on Android, affecting all UIComponents with updated states" : {
+    "Animation scope creep: only `greenOpacity` is wrapped in `withAnimation`, but Android also animates the red tile." : {
 
     },
     "Appearance" : {
@@ -100,7 +100,7 @@
         }
       }
     },
-    "Background reference tile" : {
+    "Both tiles update to opacity 0. Only the green write is scoped in `withAnimation`." : {
 
     },
     "Cancel" : {
@@ -132,9 +132,6 @@
           }
         }
       }
-    },
-    "Control case: disable both switches. On Android, the bug is present if enabling either switch makes the red tile animate in." : {
-
     },
     "Dark" : {
       "comment" : "Menu item indicating that the appearance should be in dark mode",
@@ -225,9 +222,6 @@
           }
         }
       }
-    },
-    "h: %lld" : {
-
     },
     "Hello [%@](https://skip.dev)!" : {
       "comment" : "Welcome tab contents",
@@ -481,9 +475,6 @@
     "SkipUI Android Animation Repro" : {
 
     },
-    "SNAPSHOT" : {
-
-    },
     "System" : {
       "comment" : "Menu item indicating that the appearance should be in the default system mode",
       "extractionState" : "stale",
@@ -514,15 +505,6 @@
         }
       }
     },
-    "TAB %lld" : {
-
-    },
-    "TARGET TILE" : {
-
-    },
-    "The browser snapshot should shrink into this tile." : {
-
-    },
     "Title" : {
       "comment" : "Label for the item editor form indicating the title of the item",
       "extractionState" : "stale",
@@ -552,12 +534,6 @@
           }
         }
       }
-    },
-    "Update State" : {
-
-    },
-    "Updating…" : {
-
     },
     "Version %@ (%@)" : {
       "comment" : "Settings label showing the current version of the app",
@@ -595,12 +571,6 @@
         }
       }
     },
-    "w: %lld" : {
-
-    },
-    "Watch the red tile at the start of the run. It should begin full size, not grow in from the top-left." : {
-
-    },
     "Welcome" : {
       "comment" : "Tab bar item title for the Welcome tab",
       "extractionState" : "stale",
@@ -630,12 +600,6 @@
           }
         }
       }
-    },
-    "x: %lld" : {
-
-    },
-    "y: %lld" : {
-
     }
   },
   "version" : "1.0"

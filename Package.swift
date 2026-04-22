@@ -10,10 +10,10 @@ let package = Package(
         .library(name: "SkipUIAnimationRepro", type: .dynamic, targets: ["SkipUIAnimationRepro"]),
     ],
     dependencies: [
-        // .package(url: "https://source.skip.tools/skip.git", from: "1.8.9"),
-        // .package(url: "https://source.skip.tools/skip-fuse-ui.git", from: "1.0.0")
-        .package(path: "/Users/hugo/Swishly/Projects/webvideocast/platforms/skip/libs_os/skip"),
-        .package(path: "/Users/hugo/Swishly/Projects/webvideocast/platforms/skip/libs_os/skip-fuse-ui")
+        .package(url: "https://source.skip.tools/skip.git", from: "1.8.9"),
+        .package(url: "https://source.skip.tools/skip-fuse-ui.git", from: "1.14.5")
+        //.package(path: "/Users/hugo/Swishly/Projects/webvideocast/platforms/skip/libs_os/skip"),
+        //.package(path: "/Users/hugo/Swishly/Projects/webvideocast/platforms/skip/libs_os/skip-fuse-ui")
     ],
     targets: [
         .target(name: "SkipUIAnimationRepro", dependencies: [
